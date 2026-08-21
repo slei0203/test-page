@@ -17,3 +17,22 @@ html[data-theme-setting="dark"] {
   --global-hover-color: #80bdff !important;
   --global-highlight-color: #4da3ff !important;
 }
+
+/* Additional fallback for links and accent text */
+.post a,
+.page-content a,
+.profile a,
+.news a,
+.publications a,
+.social a {
+  color: #0056a6 !important;
+}
+
+.post a:hover,
+.page-content a:hover,
+.profile a:hover,
+.news a:hover,
+.publications a:hover,
+.social a:hover {
+  color: #003f7d !important;
+}
