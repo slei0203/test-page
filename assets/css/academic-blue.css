@@ -1,0 +1,19 @@
+/* Keep the original al-folio fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap");
+
+/* Classic academic blue */
+:root,
+html[data-theme="light"],
+html[data-theme-setting="light"] {
+  --global-theme-color: #0056a6 !important;
+  --global-hover-color: #003f7d !important;
+  --global-highlight-color: #0056a6 !important;
+}
+
+/* In case dark-theme information remains in browser storage */
+html[data-theme="dark"],
+html[data-theme-setting="dark"] {
+  --global-theme-color: #4da3ff !important;
+  --global-hover-color: #80bdff !important;
+  --global-highlight-color: #4da3ff !important;
+}
